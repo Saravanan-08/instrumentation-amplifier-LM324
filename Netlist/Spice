@@ -1,0 +1,14 @@
+.title KiCad schematic
+v1 Net-_R3-Pad2_ GND DC
+R5 GND Net-_R5-Pad2_ 10k
+U4 Net-_R4-Pad2_ Net-_R5-Pad2_ output LM324
+R6 Net-_R5-Pad2_ output 100k
+R2 Net-_R2-Pad1_ Net-_R2-Pad2_ 10k
+U2 Net-_R2-Pad1_ Net-_R2-Pad1_ Net-_R7-Pad1_ LM324
+U1 Net-_R1-Pad1_ Net-_R1-Pad1_ input LM324
+R1 Net-_R1-Pad1_ Net-_R1-Pad2_ 10k
+R3 Net-_R2-Pad2_ Net-_R3-Pad2_ 47k
+R4 Net-_R1-Pad2_ Net-_R4-Pad2_ 47k
+U3 Net-_R4-Pad2_ Net-_R1-Pad2_ Net-_R2-Pad2_ LM324
+R7 Net-_R7-Pad1_ input 10k
+.end
